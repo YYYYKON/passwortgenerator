@@ -1,6 +1,5 @@
 import streamlit as st
 import random
-from streamlit_copy_button import copy_button
 
 st.title("🔐 Passwort Generator")
 
@@ -20,6 +19,7 @@ if st.button("Generieren"):
         passwort += random.choice(zeichen)
 
     st.success(passwort)
+    st.code(passwort)
 
-    copy_button(passwort,"📋 Passwort kopieren")
+
     
