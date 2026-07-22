@@ -18,7 +18,6 @@ if st.button("Generieren"):
     for i in range(laenge):
         passwort += random.choice(zeichen)
 
-    st.success(passwort)
     st.code(passwort)
 
 
