@@ -21,7 +21,5 @@ if st.button("Generieren"):
 
     st.success(passwort)
 
-    copy_button(
-        passwort,
-        "📋 Passwort kopieren"
-    )
+    copy_button(passwort,"📋 Passwort kopieren")
+    
